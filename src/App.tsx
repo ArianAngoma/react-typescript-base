@@ -1,9 +1,12 @@
 import React from 'react';
 
+/* Importaciones propias */
+import {Counter} from "./bases/Counter";
+
 function App() {
     return (
         <>
-            <h1>React Base</h1>
+            <Counter initialValueCounter={15}/>
         </>
     );
 }
