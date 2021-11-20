@@ -11,6 +11,7 @@ function App() {
             <Counter initialValueCounter={15}/>
             <CounterBy initialValueCounter={5}/>
             <CounterEffect/>
+            <CounterEffect/>
         </>
     );
 }
