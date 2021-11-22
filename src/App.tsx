@@ -4,6 +4,7 @@ import React from 'react';
 import {Counter} from './bases/Counter';
 import {CounterBy} from './bases/CounterBy';
 import {CounterEffect} from './bases/CounterEffect';
+import {CounterHook} from './bases/CounterHook';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <CounterBy initialValueCounter={5}/>
             <CounterEffect/>
             <CounterEffect/>
+            <CounterHook/>
         </>
     );
 }
